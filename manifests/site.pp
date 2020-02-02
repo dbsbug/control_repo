@@ -4,7 +4,5 @@ node default {
     content  => 'This is a readme',
     owner    => 'root',
   }
-  file {'/root/README':
-    owner => 'root',
-  }
+  mod 'simp-simp_banners', '0.1.2'
 }
